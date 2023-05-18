@@ -27,7 +27,7 @@ STATUS=`ps -ef | grep loop.php | grep -v grep | wc -l`
 PWD=`pwd`
 if [ $STATUS != 1 ];then
         echo "Loop Stopped :|"
-        php ./loop.php & >> log.txt
+        php ./loop.php &>> log.txt
 else
         echo "Loop running :)"
 fi' > cron.sh
