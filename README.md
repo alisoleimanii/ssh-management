@@ -25,7 +25,7 @@ curl https://raw.githubusercontent.com/alisoleimanii/ssh-management/master/insta
 ```
 
 ## Introduction
-All users will suspend within 30 days :)
+All users will suspend within 30 days after first login :)
 <br>
 You can see users list in *users.txt* file located in program folder
 <br>
